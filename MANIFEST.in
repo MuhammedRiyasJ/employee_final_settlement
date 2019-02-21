@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include employee_final_settlement *.css
+recursive-include employee_final_settlement *.csv
+recursive-include employee_final_settlement *.html
+recursive-include employee_final_settlement *.ico
+recursive-include employee_final_settlement *.js
+recursive-include employee_final_settlement *.json
+recursive-include employee_final_settlement *.md
+recursive-include employee_final_settlement *.png
+recursive-include employee_final_settlement *.py
+recursive-include employee_final_settlement *.svg
+recursive-include employee_final_settlement *.txt
+recursive-exclude employee_final_settlement *.pyc
