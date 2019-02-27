@@ -75,7 +75,7 @@ employee:function(frm){
                         },
                         callback: function(r) { 
                                 
-                                frm.set_value("total_leaves_taken",r.message.total_leaves_taken);
+                                
                                 frm.set_value("basic_salary",r.message.basic_salary);
                                 frm.set_value("variable_salary",r.message.variable_salary);
 
